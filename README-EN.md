@@ -4,9 +4,9 @@
 
 ### Description and Context
 ---
-This platform that we present, called *** Multi-country Cadastral Platform *** is aimed at those public entities wishing to have an open tool for analysis, exploitation and inspection of cadastral information in the multiple areas that are involved in public administrations.
+This platform that we present, called ***Multi-country Cadastral Platform*** is aimed at those public entities wishing to have an open tool for analysis, exploitation and inspection of cadastral information in the multiple areas that are involved in public administrations.
 
-As a differentiating element, we have implemented, as the underlying data model, the ** LADM ** (* Land Administration Domain Model - ISO 19152 *). This cadastral model is qualified as a standard that can be adapted to the different cadastral realities of countries, allowing extensions that adjust the basic model to the specificities of each country.
+As a differentiating element, we have implemented, as the underlying data model, the **LADM** (*Land Administration Domain Model - ISO 19152*). This cadastral model is qualified as a standard that can be adapted to the different cadastral realities of countries, allowing extensions that adjust the basic model to the specificities of each country.
 
 Future evolution of this platform will go in the line of becoming a tool for the fully management of cadastral information, allowing the issuance of cadastral certificates, linking with other data repositories such as planning, infrastructures, etc, supporting the valuation processes, continuous update of cadastral parcels, physical and legal information of land properties and owners and of the information necessary to manage the payments of property taxes.
 
