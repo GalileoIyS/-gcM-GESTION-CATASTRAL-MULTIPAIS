@@ -1,0 +1,225 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<table xmlns="http://xmlns.oracle.com/jdeveloper/1211/offlinedb">
+  <name>EXT_VALUATION</name>
+  <columns>
+    <column>
+      <name>OID</name>
+      <dataTypeUsage>
+        <attributeValues>
+          <entry>
+            <key>size</key>
+            <value class="java.lang.Long">48</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>VARCHAR2</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>true</notNull>
+      <properties>
+        <entry>
+          <key>Comment</key>
+          <value class="java.lang.String">Identificador Global Único</value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>BA_UNIT_ID</name>
+      <dataTypeUsage>
+        <attributeValues>
+          <entry>
+            <key>size</key>
+            <value class="java.lang.Long">48</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>VARCHAR2</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>Comment</key>
+          <value class="java.lang.String">Identificador de Unidad Administrativa valorada</value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>PERIOD</name>
+      <dataTypeUsage>
+        <attributeValues>
+          <entry>
+            <key>precision</key>
+            <value class="java.lang.String">4</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>NUMBER</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>Comment</key>
+          <value class="java.lang.String">Período en el que rige la valoración</value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>VALUE</name>
+      <dataTypeUsage>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>NUMBER</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>Comment</key>
+          <value class="java.lang.String">Valoración de la Undiad Administrativa</value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>VALUE_DATE</name>
+      <dataTypeUsage>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>DATE</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>Comment</key>
+          <value class="java.lang.String">Fecha de la Valoración</value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>VALUE_TYPE</name>
+      <dataTypeUsage>
+        <attributeValues>
+          <entry>
+            <key>size</key>
+            <value class="java.lang.Long">3</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>VARCHAR2</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>Comment</key>
+          <value class="java.lang.String">Tipo de Valoración</value>
+        </entry>
+      </properties>
+    </column>
+  </columns>
+  <constraints>
+    <constraint class="oracle.javatools.db.FKConstraint">
+      <name>EXT_VALUATION_BA_UNIT_FK</name>
+      <columnIDs>
+        <columnID class="oracle.javatools.db.NameBasedID">
+          <name>BA_UNIT_ID</name>
+          <parent class="oracle.javatools.db.NameBasedID">
+            <name>EXT_VALUATION</name>
+            <schemaName>GCM</schemaName>
+            <type>TABLE</type>
+          </parent>
+          <schemaName>LADM</schemaName>
+          <type>COLUMN</type>
+        </columnID>
+      </columnIDs>
+      <enabled>true</enabled>
+      <referenceID class="oracle.javatools.db.NameBasedID">
+        <name>LAG_BA_UNIT_PK</name>
+        <parent class="oracle.javatools.db.NameBasedID">
+          <name>LAG_BA_UNIT</name>
+          <schemaName>GCM</schemaName>
+          <type>TABLE</type>
+        </parent>
+        <schemaName>LADM</schemaName>
+        <type>CONSTRAINT</type>
+      </referenceID>
+    </constraint>
+    <constraint class="oracle.javatools.db.FKConstraint">
+      <name>EXT_VALUATION_VAL_TYPE_FK</name>
+      <columnIDs>
+        <columnID class="oracle.javatools.db.NameBasedID">
+          <name>VALUE_TYPE</name>
+          <parent class="oracle.javatools.db.NameBasedID">
+            <name>EXT_VALUATION</name>
+            <schemaName>GCM</schemaName>
+            <type>TABLE</type>
+          </parent>
+          <schemaName>LADM</schemaName>
+          <type>COLUMN</type>
+        </columnID>
+      </columnIDs>
+      <enabled>true</enabled>
+      <referenceID class="oracle.javatools.db.NameBasedID">
+        <name>EXT_VALUATION_TYPE_PK</name>
+        <parent class="oracle.javatools.db.NameBasedID">
+          <name>EXT_VALUATION_TYPE</name>
+          <schemaName>GCM</schemaName>
+          <type>TABLE</type>
+        </parent>
+        <schemaName>LADM</schemaName>
+        <type>CONSTRAINT</type>
+      </referenceID>
+    </constraint>
+    <constraint class="oracle.javatools.db.PKConstraint">
+      <name>EXT_VALUATION_PK</name>
+      <columnIDs>
+        <columnID class="oracle.javatools.db.NameBasedID">
+          <name>OID</name>
+          <parent class="oracle.javatools.db.NameBasedID">
+            <name>EXT_VALUATION</name>
+            <schemaName>GCM</schemaName>
+            <type>TABLE</type>
+          </parent>
+          <schemaName>LADM</schemaName>
+          <type>COLUMN</type>
+        </columnID>
+      </columnIDs>
+      <enabled>true</enabled>
+      <indexID class="oracle.javatools.db.NameBasedID">
+        <name>EXT_VALUATION_PK</name>
+        <parent class="oracle.javatools.db.NameBasedID">
+          <name>EXT_VALUATION</name>
+          <schemaName>GCM</schemaName>
+          <type>TABLE</type>
+        </parent>
+        <schemaName>GCM</schemaName>
+        <type>INDEX</type>
+      </indexID>
+    </constraint>
+  </constraints>
+  <indexes>
+    <index>
+      <name>EXT_VALUATION_PK</name>
+      <columnExpressions>
+        <columnExpression>
+          <expressionSource>OID</expressionSource>
+          <orderType>ASC</orderType>
+        </columnExpression>
+      </columnExpressions>
+      <indexType>UNIQUE</indexType>
+      <schema>
+        <name>GCM</name>
+      </schema>
+      <systemGenerated>true</systemGenerated>
+    </index>
+  </indexes>
+  <properties>
+    <entry>
+      <key>TableType</key>
+      <value class="oracle.javatools.db.Table$TableType">NORMAL</value>
+    </entry>
+  </properties>
+  <schema>
+    <name>GCM</name>
+  </schema>
+</table>

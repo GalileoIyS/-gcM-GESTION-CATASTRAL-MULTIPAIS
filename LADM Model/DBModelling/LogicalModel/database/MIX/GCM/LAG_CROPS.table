@@ -1,0 +1,241 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<table xmlns="http://xmlns.oracle.com/jdeveloper/1211/offlinedb">
+  <name>LAG_CROPS</name>
+  <columns>
+    <column>
+      <name>OID</name>
+      <dataTypeUsage>
+        <attributeValues>
+          <entry>
+            <key>size</key>
+            <value class="java.lang.Long">48</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>VARCHAR2</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>true</notNull>
+      <properties>
+        <entry>
+          <key>Comment</key>
+          <value class="java.lang.String">Identificador Unico Global</value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>LOCAL_ID</name>
+      <dataTypeUsage>
+        <attributeValues>
+          <entry>
+            <key>size</key>
+            <value class="java.lang.Long">48</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>VARCHAR2</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>Comment</key>
+          <value class="java.lang.String">Referencia Local del Cultivo</value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>BA_UNIT_ID</name>
+      <dataTypeUsage>
+        <attributeValues>
+          <entry>
+            <key>size</key>
+            <value class="java.lang.Long">48</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>VARCHAR2</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>Comment</key>
+          <value class="java.lang.String">Identificador de la BAUnit matriz del Cultivo</value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>CROP_TYPE</name>
+      <dataTypeUsage>
+        <attributeValues>
+          <entry>
+            <key>size</key>
+            <value class="java.lang.Long">3</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>VARCHAR2</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>Comment</key>
+          <value class="java.lang.String">Tipo de Cultivo</value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>AREA</name>
+      <dataTypeUsage>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>NUMBER</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>Comment</key>
+          <value class="java.lang.String">Superficie del Cultivo</value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>ECONOMIC_VALUE</name>
+      <dataTypeUsage>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>NUMBER</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>Comment</key>
+          <value class="java.lang.String">ValorEconómico del Cultivo</value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>POLYGON</name>
+      <dataTypeUsage>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>LONG RAW</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>true</notNull>
+      <properties>
+        <entry>
+          <key>Comment</key>
+          <value class="java.lang.String">Geometría de Tipo Poligonal</value>
+        </entry>
+      </properties>
+    </column>
+  </columns>
+  <constraints>
+    <constraint class="oracle.javatools.db.PKConstraint">
+      <name>LAG_CROPS_PK</name>
+      <columnIDs>
+        <columnID class="oracle.javatools.db.NameBasedID">
+          <name>OID</name>
+          <parent class="oracle.javatools.db.NameBasedID">
+            <name>LAG_CROPS</name>
+            <schemaName>GCM</schemaName>
+            <type>TABLE</type>
+          </parent>
+          <schemaName>GCM</schemaName>
+          <type>COLUMN</type>
+        </columnID>
+      </columnIDs>
+      <enabled>true</enabled>
+      <indexID class="oracle.javatools.db.NameBasedID">
+        <name>LAG_CROPS_PK</name>
+        <parent class="oracle.javatools.db.NameBasedID">
+          <name>LAG_CROPS</name>
+          <schemaName>GCM</schemaName>
+          <type>TABLE</type>
+        </parent>
+        <schemaName>GCM</schemaName>
+        <type>INDEX</type>
+      </indexID>
+    </constraint>
+    <constraint class="oracle.javatools.db.FKConstraint">
+      <name>LAG_CROPS_BA_UNIT_FK</name>
+      <columnIDs>
+        <columnID class="oracle.javatools.db.NameBasedID">
+          <name>BA_UNIT_ID</name>
+          <parent class="oracle.javatools.db.NameBasedID">
+            <name>LAG_CROPS</name>
+            <schemaName>GCM</schemaName>
+            <type>TABLE</type>
+          </parent>
+          <schemaName>GCM</schemaName>
+          <type>COLUMN</type>
+        </columnID>
+      </columnIDs>
+      <enabled>true</enabled>
+      <referenceID class="oracle.javatools.db.NameBasedID">
+        <name>LAG_BA_UNIT_PK</name>
+        <parent class="oracle.javatools.db.NameBasedID">
+          <name>LAG_BA_UNIT</name>
+          <schemaName>GCM</schemaName>
+          <type>TABLE</type>
+        </parent>
+        <schemaName>LADM</schemaName>
+        <type>CONSTRAINT</type>
+      </referenceID>
+    </constraint>
+    <constraint class="oracle.javatools.db.FKConstraint">
+      <name>LAG_CROPS_TYPE_FK</name>
+      <columnIDs>
+        <columnID class="oracle.javatools.db.NameBasedID">
+          <name>CROP_TYPE</name>
+          <parent class="oracle.javatools.db.NameBasedID">
+            <name>LAG_CROPS</name>
+            <schemaName>GCM</schemaName>
+            <type>TABLE</type>
+          </parent>
+          <schemaName>GCM</schemaName>
+          <type>COLUMN</type>
+        </columnID>
+      </columnIDs>
+      <enabled>true</enabled>
+      <onDeleteAction>NO_ACTION</onDeleteAction>
+      <referenceID class="oracle.javatools.db.NameBasedID">
+        <name>LAG_CROPS_TYPE_PK</name>
+        <parent class="oracle.javatools.db.NameBasedID">
+          <name>LAG_CROPS_TYPE</name>
+          <schemaName>GCM</schemaName>
+          <type>TABLE</type>
+        </parent>
+        <schemaName>GCM</schemaName>
+        <type>CONSTRAINT</type>
+      </referenceID>
+    </constraint>
+  </constraints>
+  <indexes>
+    <index>
+      <name>LAG_CROPS_PK</name>
+      <columnExpressions>
+        <columnExpression>
+          <expressionSource>OID</expressionSource>
+          <orderType>ASC</orderType>
+        </columnExpression>
+      </columnExpressions>
+      <indexType>UNIQUE</indexType>
+      <schema>
+        <name>GCM</name>
+      </schema>
+      <systemGenerated>true</systemGenerated>
+    </index>
+  </indexes>
+  <properties>
+    <entry>
+      <key>TableType</key>
+      <value class="oracle.javatools.db.Table$TableType">NORMAL</value>
+    </entry>
+  </properties>
+  <schema>
+    <name>GCM</name>
+  </schema>
+</table>

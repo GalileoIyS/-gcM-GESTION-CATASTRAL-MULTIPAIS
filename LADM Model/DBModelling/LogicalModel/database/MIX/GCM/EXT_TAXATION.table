@@ -1,0 +1,308 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<table xmlns="http://xmlns.oracle.com/jdeveloper/1211/offlinedb">
+  <name>EXT_TAXATION</name>
+  <columns>
+    <column>
+      <name>OID</name>
+      <dataTypeUsage>
+        <attributeValues>
+          <entry>
+            <key>size</key>
+            <value class="java.lang.Long">48</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>VARCHAR2</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>true</notNull>
+      <properties>
+        <entry>
+          <key>Comment</key>
+          <value class="java.lang.String">Identificador Único Global</value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>LOCAL_ID</name>
+      <dataTypeUsage>
+        <attributeValues>
+          <entry>
+            <key>size</key>
+            <value class="java.lang.Long">48</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>VARCHAR2</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>Comment</key>
+          <value class="java.lang.String">Referencia Local del Impuesto</value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>BA_UNIT_ID</name>
+      <dataTypeUsage>
+        <attributeValues>
+          <entry>
+            <key>size</key>
+            <value class="java.lang.Long">48</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>VARCHAR2</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>Comment</key>
+          <value class="java.lang.String">Identificador de la BAUnit asociada al Impuesto</value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>PARTY_ID</name>
+      <dataTypeUsage>
+        <attributeValues>
+          <entry>
+            <key>size</key>
+            <value class="java.lang.Long">48</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>VARCHAR2</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>Comment</key>
+          <value class="java.lang.String">Identificador del Interesado</value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>FISCAL_PERIOD</name>
+      <dataTypeUsage>
+        <attributeValues>
+          <entry>
+            <key>size</key>
+            <value class="java.lang.Long">12</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>VARCHAR2</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>Comment</key>
+          <value class="java.lang.String">Ejercicio Fiscal</value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>TAX_TYPE</name>
+      <dataTypeUsage>
+        <attributeValues>
+          <entry>
+            <key>size</key>
+            <value class="java.lang.Long">3</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>VARCHAR2</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>Comment</key>
+          <value class="java.lang.String">Tipo del Impuesto</value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>TAX_DATE</name>
+      <dataTypeUsage>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>DATE</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>Comment</key>
+          <value class="java.lang.String">Fecha del Impuesto</value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>AMOUNT</name>
+      <dataTypeUsage>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>NUMBER</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>Comment</key>
+          <value class="java.lang.String">Importe del Impuesto</value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>AMOUNT_PAID</name>
+      <dataTypeUsage>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>NUMBER</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>Comment</key>
+          <value class="java.lang.String">Cantidad Pagada</value>
+        </entry>
+      </properties>
+    </column>
+  </columns>
+  <constraints>
+    <constraint class="oracle.javatools.db.FKConstraint">
+      <name>EXT_TAXATION_BA_UNIT_FK</name>
+      <columnIDs>
+        <columnID class="oracle.javatools.db.NameBasedID">
+          <name>BA_UNIT_ID</name>
+          <parent class="oracle.javatools.db.NameBasedID">
+            <name>EXT_TAXATION</name>
+            <schemaName>GCM</schemaName>
+            <type>TABLE</type>
+          </parent>
+          <schemaName>LADM</schemaName>
+          <type>COLUMN</type>
+        </columnID>
+      </columnIDs>
+      <enabled>true</enabled>
+      <referenceID class="oracle.javatools.db.NameBasedID">
+        <name>LAG_BA_UNIT_PK</name>
+        <parent class="oracle.javatools.db.NameBasedID">
+          <name>LAG_BA_UNIT</name>
+          <schemaName>GCM</schemaName>
+          <type>TABLE</type>
+        </parent>
+        <schemaName>LADM</schemaName>
+        <type>CONSTRAINT</type>
+      </referenceID>
+    </constraint>
+    <constraint class="oracle.javatools.db.FKConstraint">
+      <name>EXT_TAXATION_PARTY_FK</name>
+      <columnIDs>
+        <columnID class="oracle.javatools.db.NameBasedID">
+          <name>PARTY_ID</name>
+          <parent class="oracle.javatools.db.NameBasedID">
+            <name>EXT_TAXATION</name>
+            <schemaName>GCM</schemaName>
+            <type>TABLE</type>
+          </parent>
+          <schemaName>LADM</schemaName>
+          <type>COLUMN</type>
+        </columnID>
+      </columnIDs>
+      <enabled>true</enabled>
+      <referenceID class="oracle.javatools.db.NameBasedID">
+        <name>LAG_PARTY_PK</name>
+        <parent class="oracle.javatools.db.NameBasedID">
+          <name>LAG_PARTY</name>
+          <schemaName>GCM</schemaName>
+          <type>TABLE</type>
+        </parent>
+        <schemaName>LADM</schemaName>
+        <type>CONSTRAINT</type>
+      </referenceID>
+    </constraint>
+    <constraint class="oracle.javatools.db.FKConstraint">
+      <name>EXT_TAXATION_TAX_TYPE_FK</name>
+      <columnIDs>
+        <columnID class="oracle.javatools.db.NameBasedID">
+          <name>TAX_TYPE</name>
+          <parent class="oracle.javatools.db.NameBasedID">
+            <name>EXT_TAXATION</name>
+            <schemaName>GCM</schemaName>
+            <type>TABLE</type>
+          </parent>
+          <schemaName>LADM</schemaName>
+          <type>COLUMN</type>
+        </columnID>
+      </columnIDs>
+      <enabled>true</enabled>
+      <referenceID class="oracle.javatools.db.NameBasedID">
+        <name>EXT_TAX_TYPE_PK</name>
+        <parent class="oracle.javatools.db.NameBasedID">
+          <name>EXT_TAX_TYPE</name>
+          <schemaName>GCM</schemaName>
+          <type>TABLE</type>
+        </parent>
+        <schemaName>LADM</schemaName>
+        <type>CONSTRAINT</type>
+      </referenceID>
+    </constraint>
+    <constraint class="oracle.javatools.db.PKConstraint">
+      <name>EXT_TAXATION_PK</name>
+      <columnIDs>
+        <columnID class="oracle.javatools.db.NameBasedID">
+          <name>OID</name>
+          <parent class="oracle.javatools.db.NameBasedID">
+            <name>EXT_TAXATION</name>
+            <schemaName>GCM</schemaName>
+            <type>TABLE</type>
+          </parent>
+          <schemaName>LADM</schemaName>
+          <type>COLUMN</type>
+        </columnID>
+      </columnIDs>
+      <enabled>true</enabled>
+      <indexID class="oracle.javatools.db.NameBasedID">
+        <name>EXT_TAXATION_PK</name>
+        <parent class="oracle.javatools.db.NameBasedID">
+          <name>EXT_TAXATION</name>
+          <schemaName>GCM</schemaName>
+          <type>TABLE</type>
+        </parent>
+        <schemaName>GCM</schemaName>
+        <type>INDEX</type>
+      </indexID>
+    </constraint>
+  </constraints>
+  <indexes>
+    <index>
+      <name>EXT_TAXATION_PK</name>
+      <columnExpressions>
+        <columnExpression>
+          <expressionSource>OID</expressionSource>
+          <orderType>ASC</orderType>
+        </columnExpression>
+      </columnExpressions>
+      <indexType>UNIQUE</indexType>
+      <schema>
+        <name>GCM</name>
+      </schema>
+      <systemGenerated>true</systemGenerated>
+    </index>
+  </indexes>
+  <properties>
+    <entry>
+      <key>TableType</key>
+      <value class="oracle.javatools.db.Table$TableType">NORMAL</value>
+    </entry>
+  </properties>
+  <schema>
+    <name>GCM</name>
+  </schema>
+</table>
