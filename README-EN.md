@@ -45,7 +45,7 @@ Future evolution of this platform will go in the line of becoming a tool for the
          - a)Integration with Property Registries and Notariats (and / or other Entities).
          - b)Planning, Infrastructure and municipal equipment.
          - c)Rural Cadastre.
-    - Development of the '_Catastro Virtual Office_' for Citizens' Consultations, Cadastral Mutation File Processing, Telematic Payments, Cadastral Tax Transparency.
+    - Development of the '_Catastro Virtual Office_' for Citizens, Consultations, Cadastral Mutation File Processing, Telematic Payments, Cadastral Tax Transparency.
 
 ### User Guide
 ---
