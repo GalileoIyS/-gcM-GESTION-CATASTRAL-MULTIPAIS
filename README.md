@@ -21,7 +21,7 @@ La evolución futura de esta plataforma irá en la línea de convertirse, ademá
     - Descripción y documentación de la herramienta.
     - Guía de Instalación y Requerimientos. 
     - Enlace a la Plataforma de demostración a usuarios (ejemplos y pruebas).
-ii.	**Servicios de Consultoría e Implantación. JULIO 2018**.
+2.	**Servicios de Consultoría e Implantación. JULIO 2018**.
     - Consultoría/diseño de extensiones del modelo base LADM a la problemática específica de cada país.
     - Apoyo a la implantación y carga inicial de datos de la herramienta.
     - Formación.
@@ -39,7 +39,7 @@ ii.	**Servicios de Consultoría e Implantación. JULIO 2018**.
          - c)Mapas de valor catastral.
          - d)Mapas de usos prediales.
          - e)Mapas por importe del impuesto predial.
-iv.	**Funcionalidad Extendida. (Versión 2). DICIEMBRE 2018**
+4.	**Funcionalidad Extendida. (Versión 2). DICIEMBRE 2018**
     - Herramienta de carga de datos en el modelo sobre formato XML.
     - Extensión de herramientas de análisis tributario.
     - Módulo de seguridad/auditoría.
