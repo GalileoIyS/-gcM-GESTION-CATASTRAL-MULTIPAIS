@@ -16,7 +16,7 @@ Future evolution of this platform will go in the line of becoming a tool for the
     - Description and documentation of the tool.
     - Installation Guide and Requirements.
     - Link to the Demonstration Platform to users (examples and tests).
-ii. **Consulting and Implementation Services. JULY 2018**.
+2. **Consulting and Implementation Services. JULY 2018**.
     - Consulting / design of extensions of the LADM base model to the specific problems of each country.
     - Description and documentation of the tool.
 3. **Basic System Functionality (Version 1). AUGUST 2018**.
@@ -31,7 +31,7 @@ ii. **Consulting and Implementation Services. JULY 2018**.
          - c)Cadastral value maps.
          - d)Maps of land uses.
          - e)Maps for the amount of the property tax.
-iv. **Extended Functionality. (Version 2). DECEMBER 2018**.
+4. **Extended Functionality. (Version 2). DECEMBER 2018**.
     - Data loading tool in the model on XML format.
     - Extension of tax analysis tools.
     - Security / audit module.
@@ -128,6 +128,6 @@ Source code has been released under a BSD license. Please refer to [LICENSE-EN.m
 
 Galileo IyS will not be responsible, under any circumstance, for damage or compensation, moral or patrimonial; direct or indirect; accessory or special; or by way of consequence, foreseen or unforeseen, that could arise::
 
-i. Under any theory of liability, whether by contract, infringement of intellectual property rights, negligence or under any other theory; and/or
-ii. Due to the use of the Digital Tool, including, but not limited to, potential defects in the Digital Tool, or the loss or inaccuracy of data of any kind. The foregoing includes expenses or damages associated with communication failures and / or malfunctions of computers, linked to the use of the Digital Tool.
+1. Under any theory of liability, whether by contract, infringement of intellectual property rights, negligence or under any other theory; and/or
+2. Due to the use of the Digital Tool, including, but not limited to, potential defects in the Digital Tool, or the loss or inaccuracy of data of any kind. The foregoing includes expenses or damages associated with communication failures and / or malfunctions of computers, linked to the use of the Digital Tool.
 
