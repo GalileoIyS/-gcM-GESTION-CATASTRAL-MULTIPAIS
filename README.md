@@ -1,6 +1,5 @@
-*Esta herramienta digital forma parte del catálogo de herramientas del **Banco Interamericano de Desarrollo**. Puedes conocer más sobre la iniciativa del BID en [code.iadb.org](code.iadb.org)*
-
 ## \{gcM\} Gestión Catastral Multipaís
+*Esta herramienta digital forma parte del catálogo de herramientas del **Banco Interamericano de Desarrollo**. Puedes conocer más sobre la iniciativa del BID en [code.iadb.org](code.iadb.org)*
 
 <!-- COMO AÑADIR UNA IMAGEN: ![image Info](file:///F:/Documentos/Proyectos/BID/Github/Images/IBI.png "Descripción de la imagen")
 -->
