@@ -39,7 +39,7 @@ La evolución futura de esta plataforma irá en la línea de convertirse, ademá
          - d)Mapas de usos prediales.
          - e)Mapas por importe del impuesto predial.
     - **PUEDE VERSE UNA DEMOSTRACIÓN DE LA HERRAMIENTA EN ESTE [LINK](https://sede.galileoiys.es/publico/territorio/catastro#)**
-4.	**Funcionalidad Extendida. (Versión 2). DICIEMBRE 2018**
+4.	**Funcionalidad Extendida. (Versión 2). DICIEMBRE 2018** (*)
     - Herramienta de carga de datos en el modelo sobre formato XML.
     - Extensión de herramientas de análisis tributario.
     - Módulo de seguridad/auditoría.
@@ -48,13 +48,14 @@ La evolución futura de esta plataforma irá en la línea de convertirse, ademá
     - Herramientas de GeoProcesamiento (selección por buffers, merge, etc.).
     - Generación recibos cobratorios, tipos impositivos y exenciones.
     - Integración con sistemas cobratorios municipales. Intercambio ficheros y domiciliaciones bancos.
-5.	**Funcionalidad Extendida II (Versión 3). JULIO 2019**
+5.	**Funcionalidad Extendida II (Versión 3). JULIO 2019** (*)
     - Extensión del modelo a otros repositorios de Catastro Multipropósito:
          - a)Integración con Registros de Propiedad y Notariados (y/u otras Entidades).
          - b)Planeación, Infraestructuras y equipamiento municipal.
          - c)Catastro Rural.
     - Desarrollo de la ‘_Oficina Virtual de Catastro_’ para Consultas de ciudadanos, Tramitación de expedientes de mutaciones catastrales, Pagos telemáticos, Transparencia tributaria catastral.
 
+(*) Las funcionalidades extendidas pueden suponer costes de contratación.
 
 ### Guía de usuario
 ---
