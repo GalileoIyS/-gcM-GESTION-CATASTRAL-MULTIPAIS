@@ -48,7 +48,7 @@ Future evolution of this platform will go in the line of becoming a tool for the
          - c)Rural Cadastre.
     - Development of the '_Catastro Virtual Office_' for Citizens, Consultations, Cadastral Mutation File Processing, Telematic Payments, Cadastral Tax Transparency.
 
-(*) The extended functionalities can suppose contracting costs.
+(*) _The extended functionalities can suppose contracting costs._
 
 ### User Guide
 ---
