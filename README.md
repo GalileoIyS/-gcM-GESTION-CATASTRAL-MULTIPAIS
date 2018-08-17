@@ -127,7 +127,13 @@ Para más detalles, ver el documento [CODE-OF-CONDUCT.md](CODE-OF-CONDUCT.md).
 
 ### Referencias
 ---
-* Sede Electrónica Tuluá
+* [Sistema de Gestión Catastral Galileo](http://www.galileoiys.es/portfolio-item/gestion-catastral/)
+* [Sede electrónica Gestión Tributaria y Territorio](https://sede.galileoiys.es/publico/territorio/catastro#)
+* [Sede Electrónica Tuluá](http://tulua.galileoiys.es/)
+* [Vídeo demostrativo Sistema de Gestión Catastral](https://www.youtube.com/watch?v=DFPdrn-bul8)
+* [Vídeo demostrativo Sistema Catastral Tuluá](https://youtu.be/DFPdrn-bul8)
+* [SIELOCAL, Portal de Transparencia Económica de entidades públicas](http://www.sielocal.com/)
+* [Vídeo demostrativo SIELOCAL](https://www.youtube.com/watch?v=bDRYJ1C8Ir4)
 
 ### Información Adicional / DEMOSTRACIÓN
 ---
