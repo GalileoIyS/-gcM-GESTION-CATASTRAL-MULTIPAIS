@@ -38,7 +38,7 @@ La evolución futura de esta plataforma irá en la línea de convertirse, ademá
          - c)Mapas de valor catastral.
          - d)Mapas de usos prediales.
          - e)Mapas por importe del impuesto predial.
-**PUEDE VERSE UNA DEMOSTRACIÓN DE LA HERRAMIENTA EN ESTE [LINK](https://sede.galileoiys.es/publico/territorio/catastro#)**
+    - **PUEDE VERSE UNA DEMOSTRACIÓN DE LA HERRAMIENTA EN ESTE [LINK](https://sede.galileoiys.es/publico/territorio/catastro#)**
 4.	**Funcionalidad Extendida. (Versión 2). DICIEMBRE 2018**
     - Herramienta de carga de datos en el modelo sobre formato XML.
     - Extensión de herramientas de análisis tributario.
