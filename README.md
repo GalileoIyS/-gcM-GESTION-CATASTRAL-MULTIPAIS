@@ -116,12 +116,17 @@ El código de conducta establece las normas sociales, reglas y responsabilidades
 
 Para más detalles, ver el documento [CODE-OF-CONDUCT.md](CODE-OF-CONDUCT.md). 
 
-### Autor/es
+### Autoría
 ---
+* **Galileo Ingeniería y Servicios, S.A. https://www.galileoiys.es/**
 * Juan Antonio Ubalde <jubalde@galileoiys.es>
 * Gregorio Martín <gmartin@galileoiys.es>
 * Domingo Rodríguez <drodriguez@galileoiys.es>
 * Nicolás Hernández <nhernandez@galileoiys.es>
+
+### Referencias
+---
+* Sede Electrónica Tuluá
 
 ### Información Adicional / DEMOSTRACIÓN
 ---
