@@ -38,6 +38,7 @@ La evolución futura de esta plataforma irá en la línea de convertirse, ademá
          - c)Mapas de valor catastral.
          - d)Mapas de usos prediales.
          - e)Mapas por importe del impuesto predial.
+    **PUEDE VERSE UNA DEMOSTRACIÓN DE LA HERRAMIENTA EN ESTE [LINK](www.galileoiys.es)**
 4.	**Funcionalidad Extendida. (Versión 2). DICIEMBRE 2018**
     - Herramienta de carga de datos en el modelo sobre formato XML.
     - Extensión de herramientas de análisis tributario.
@@ -124,7 +125,7 @@ Para más detalles, ver el documento [CODE-OF-CONDUCT.md](CODE-OF-CONDUCT.md).
 
 ### Información Adicional
 ---
-Hemos preparado una [página web](www.galileoiys.es) en la que se puede ver en operación la plataforma, así como obtener más información sobre el proyecto, líneas futuras de desarrollo, etc.
+**Hemos preparado una [página web](www.galileoiys.es) en la que se puede ver en operación la plataforma, así como obtener más información sobre el proyecto, líneas futuras de desarrollo, etc.**
 
 Si lo desea, puede ver el [Resumen Ejecutivo](ResumenEjecutivo.pdf) para obtener información ampliada sobre el proyecto.
 
