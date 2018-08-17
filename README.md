@@ -16,45 +16,37 @@ La evolución futura de esta plataforma irá en la línea de convertirse, ademá
 
 ### Calendario y Ciclos de despliegue del Sistema ([ver documento de calendario](Calendario.pdf))
 ---
-1.	**Publicación en Github. MAYO 2018**.
-    - Descripción y documentación de la herramienta.
-    - Guía de Instalación y Requerimientos. 
-    - Enlace a la Plataforma de demostración a usuarios (ejemplos y pruebas).
-2.	**Servicios de Consultoría e Implantación. JULIO 2018**.
-    - Consultoría/diseño de extensiones del modelo base LADM a la problemática específica de cada país.
-    - Apoyo a la implantación y carga inicial de datos de la herramienta.
-    - Formación.
-    - Desarrollos ad-hoc según demanda.
-    - Descripción y documentación de la herramienta.
-3.	**Funcionalidad Básica del Sistema (Versión 1). AGOSTO 2018**.
-    - Implementación del modelo LADM en base de datos Oracle y Postgre/Postgis.
-    - Inclusión de modelo extendido de datos de cobro del impuesto predial que permitan mejorar la recaudación tributaria predial.
-    - Visor geográfico como herramienta de proyección del parcelario catastral:
-         - a)Creación de capas y ficheros "_.SLD_" para Geoserver.
-         - b)Visor cliente utilizando Leaflet.
-    - Consulta de predios seleccionando en el Mapa (ficha de predio).
-    - Herramienta de selección de predios con proyección en el Mapa según filtros definibles por el usuario.
-    - Repositorio de temáticos predefinidos:
-         - c)Mapas de valor catastral.
-         - d)Mapas de usos prediales.
-         - e)Mapas por importe del impuesto predial.
-    - **PUEDE VERSE UNA DEMOSTRACIÓN DE LA HERRAMIENTA EN ESTE [LINK](https://sede.galileoiys.es/publico/territorio/catastro#)**
-4.	**Funcionalidad Extendida. (Versión 2). DICIEMBRE 2018** (*)
-    - Herramienta de carga de datos en el modelo sobre formato XML.
+1.	**Funcionalidad Básica del Sistema (Versión 1). AGOSTO 2018**.
+    - Implementación del Sistema Catastral multipaís con componentes de código abierto.
+        - Funcionalidad para la Inclusión de mapas catastrales, parcelarios y ortofotografías.
+        - Consultas de parcelas con los datos de dimensiones, valores catastrales, usos y otros.
+        - Superposición de cartografía con mapas de catastro para mejorar la inspección tributaria.
+        - Puesta a disposición de las municipalidades del Visor geográfico como herramienta de proyección del parcelario catastral.
+     - Procesos disponibles para creación de capas y ficheros ‘.SLD’ para GeoServer.
+     - Visor cliente para:
+        - Consulta de predios seleccionando en el Mapa (ficha de predio).
+        - Visor de Street View asociado a las parcelas catastrales.
+        - Herramienta de selección de predios con proyección en el Mapa según filtros definibles.
+        - Repositorio de temáticos catastrales predefinidos: Mapas de valor catastral; Mapas de usos prediales; Mapas por ratio de cobro del impuesto predial; Mapas de cultivos.
+      - **PUEDE VERSE UNA DEMOSTRACIÓN DE LA HERRAMIENTA EN ESTE [LINK](https://sede.galileoiys.es/publico/territorio/catastro#)**
+2.	**Funcionalidad Extendida. (Versión 2). DICIEMBRE 2018** (*).
+    - Automatización con herramienta de carga de datos en formato estándar XML.
+    - Modelos de intercambio de ficheros de mutaciones con autoridades catastrales nacionales.
     - Extensión de herramientas de análisis tributario.
     - Módulo de seguridad/auditoría.
     - Instalaciones locales y/o en la nube. Servicios de hospedaje.
-    - Generación de cédulas/certificados catastrales.
+    - Generación de cédulas/certificados catastrales. Consultas de predios.
     - Herramientas de GeoProcesamiento (selección por buffers, merge, etc.).
     - Generación recibos cobratorios, tipos impositivos y exenciones.
     - Integración con sistemas cobratorios municipales. Intercambio ficheros y domiciliaciones bancos.
-5.	**Funcionalidad Extendida II (Versión 3). JULIO 2019** (*)
-    - Extensión del modelo a otros repositorios de Catastro Multipropósito:
-         - a)Integración con Registros de Propiedad y Notariados (y/u otras Entidades).
-         - b)Planeación, Infraestructuras y equipamiento municipal.
-         - c)Catastro Rural.
-    - Desarrollo de la ‘_Oficina Virtual de Catastro_’ para Consultas de ciudadanos, Tramitación de expedientes de mutaciones catastrales, Pagos telemáticos, Transparencia tributaria catastral.
-
+3.	**Funcionalidad Extendida II (Versión 3). JULIO 2019** (*).
+    - Extensión del modelo a otros repositorios de **_Catastro Multipropósito_**:
+         - Integración con Registros de Propiedad y Notariados (y/u otras Entidades). 
+         - Control de mutaciones catastrales. Pruebas con Blockchain.
+         - Planeación, Infraestructuras y equipamiento municipal.
+         - Catastro Rural.
+    -  Desarrollo de la **_‘Oficina Virtual de Catastro’_** en línea para Consultas de ciudadanos, Tramitación de expedientes de mutaciones catastrales, Pagos telemáticos, Transparencia tributaria catastral.
+    
 (*) _Las funcionalidades extendidas pueden suponer costes de contratación._
 
 ### Guía de usuario
