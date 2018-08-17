@@ -55,7 +55,7 @@ La evolución futura de esta plataforma irá en la línea de convertirse, ademá
          - c)Catastro Rural.
     - Desarrollo de la ‘_Oficina Virtual de Catastro_’ para Consultas de ciudadanos, Tramitación de expedientes de mutaciones catastrales, Pagos telemáticos, Transparencia tributaria catastral.
 
-(*) Las funcionalidades extendidas pueden suponer costes de contratación.
+(*) _Las funcionalidades extendidas pueden suponer costes de contratación._
 
 ### Guía de usuario
 ---
