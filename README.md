@@ -128,7 +128,7 @@ Para más detalles, ver el documento [CODE-OF-CONDUCT.md](CODE-OF-CONDUCT.md).
 ### Referencias
 ---
 * [Sistema de Gestión Catastral Galileo](http://www.galileoiys.es/portfolio-item/gestion-catastral/)
-* [Sede electrónica Gestión Tributaria y Territorio](https://sede.galileoiys.es/publico/territorio/catastro#)
+* [Sede Electrónica Gestión Tributaria y Territorio](https://sede.galileoiys.es/publico/territorio/catastro#)
 * [Sede Electrónica Tuluá](http://tulua.galileoiys.es/)
 * [Vídeo demostrativo Sistema de Gestión Catastral](https://www.youtube.com/watch?v=DFPdrn-bul8)
 * [Vídeo demostrativo Sistema Catastral Tuluá](https://youtu.be/DFPdrn-bul8)
