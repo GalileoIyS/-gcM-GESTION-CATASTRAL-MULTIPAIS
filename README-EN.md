@@ -10,7 +10,7 @@ As a differentiating element, we have implemented, as the underlying data model,
 
 Future evolution of this platform will go in the line of becoming a tool for the fully management of cadastral information, allowing the issuance of cadastral certificates, linking with other data repositories such as planning, infrastructures, etc, supporting the valuation processes, continuous update of cadastral parcels, physical and legal information of land properties and owners and of the information necessary to manage the payments of property taxes.
 
-### Calendar and System Deployment Cycles
+### Calendar and System Deployment Cycles ([see calendar document])(Calendario.pdf)
 ---
 1. **Publication in Github. MAY 2018**.
     - Description and documentation of the tool.
