@@ -14,7 +14,7 @@ Como elemento diferenciador, hemos implementado, como modelo de datos subyacente
 
 La evolución futura de esta plataforma irá en la línea de convertirse, además, en una herramienta de gestión integral de la información catastral, permitiendo la emisión de cédulas catastrales, enlazando con otros repositorios de datos como pueden ser la planeación, infraestructuras, etc., soportando los procesos de valoración, actualización continua del parcelario catastral, de la información física y jurídica de los inmuebles y propietarios y de la información necesaria para la gestión de cobros y contribuyentes del impuesto predial.
 
-### Calendario y Ciclos de despliegue del Sistema
+### Calendario y Ciclos de despliegue del Sistema ([ver documento de calendario])(Calendario.pdf)
 ---
 1.	**Publicación en Github. MAYO 2018**.
     - Descripción y documentación de la herramienta.
