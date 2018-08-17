@@ -31,7 +31,8 @@ Future evolution of this platform will go in the line of becoming a tool for the
          - c)Cadastral value maps.
          - d)Maps of land uses.
          - e)Maps for the amount of the property tax.
-4. **Extended Functionality. (Version 2). DECEMBER 2018**.
+    - **YOU CAN SEE A DEMONSTRATION OF THE TOOL IN THIS [LINK](https://sede.galileoiys.es/publico/territorio/catastro#)**
+4. **Extended Functionality. (Version 2). DECEMBER 2018** (*).
     - Data loading tool in the model on XML format.
     - Extension of tax analysis tools.
     - Security / audit module.
@@ -40,12 +41,14 @@ Future evolution of this platform will go in the line of becoming a tool for the
     - GeoProcessing tools (selection by buffers, merge, etc.).
     - Generation of collection receipts, tax rates and exemptions.
     - Integration with municipal collection systems. Exchange files and direct debits banks.
-5. **Extended Functionality II (Version 3). JULY 2019**.
+5. **Extended Functionality II (Version 3). JULY 2019** (*).
     - Extension of the model to other repositories of Multipurpose Cadastre:
          - a)Integration with Property Registries and Notariats (and / or other Entities).
          - b)Planning, Infrastructure and municipal equipment.
          - c)Rural Cadastre.
     - Development of the '_Catastro Virtual Office_' for Citizens, Consultations, Cadastral Mutation File Processing, Telematic Payments, Cadastral Tax Transparency.
+
+(*) The extended functionalities can suppose contracting costs.
 
 ### User Guide
 ---
@@ -105,17 +108,28 @@ The Code of Conduct establishes the social norms, rules, and responsibility that
 
 For more details, see the file [CODE-OF-CONDUCT.md](/en/CODE-OF-CONDUCT-EN.md). 
 
-### Authors
+### Authorship
 ---
+* **Galileo Ingeniería y Servicios, S.A. https://www.galileoiys.es/**
 * Juan Antonio Ubalde <jubalde@galileoiys.es>
 * Gregorio Martín <gmartin@galileoiys.es>
 * Domingo Rodríguez <drodriguez@galileoiys.es>
 * Nicolás Hernández <nhernandez@galileoiys.es>
 
+### References
+---
+* [Galileo Cadastral Management System](http://www.galileoiys.es/portfolio-item/gestion-catastral/)
+* [Electronic Headquarters Tax and Territory Management](https://sede.galileoiys.es/publico/territorio/catastro#)
+* [Tuluá Electronic Headquarters](http://tulua.galileoiys.es/)
+* [Demonstration video Cadastral Management System](https://www.youtube.com/watch?v=DFPdrn-bul8)
+* [Demonstrative video Sistema Catastral Tuluá](https://youtu.be/DFPdrn-bul8)
+* [SIELOCAL, Portal of Economic Transparency of public entities](http://www.sielocal.com/)
+* [Demonstration video SIELOCAL](https://www.youtube.com/watch?v=bDRYJ1C8Ir4)
+
 ### Additional Information
 ---
 
-We have prepared a [website](www.galileoiys.es) where you can see the platform in operation, as well as obtain more information about the project, future development lines, etc.
+We have prepared a [website](https://sede.galileoiys.es/publico/territorio/catastro#) where you can see the platform in operation, as well as obtain more information about the project, future development lines, etc.
 
 You can see the [ExecutiveSummary](/../ResumenEjecutivo.pdf) to obtain extended information about the project.
 
