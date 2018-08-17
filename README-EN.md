@@ -12,41 +12,36 @@ Future evolution of this platform will go in the line of becoming a tool for the
 
 ### Calendar and System Deployment Cycles ([see calendar document](Calendario.pdf))
 ---
-1. **Publication in Github. MAY 2018**.
-    - Description and documentation of the tool.
-    - Installation Guide and Requirements.
-    - Link to the Demonstration Platform to users (examples and tests).
-2. **Consulting and Implementation Services. JULY 2018**.
-    - Consulting / design of extensions of the LADM base model to the specific problems of each country.
-    - Description and documentation of the tool.
-3. **Basic System Functionality (Version 1). AUGUST 2018**.
-    - Implementation of the LADM model in Oracle database and Postgre / Postgis.
-    - Inclusion of an extended data model for the collection of the property tax to improve the tax collection of the property.
-    - Geographic viewer as a projection tool for the cadastral parcel:
-         - a)Creation of layers and files "_.SLD_" for Geoserver.
-         - b)Client viewer using Leaflet.
-    - Consultation of properties by selecting on the Map (property record).
-    - Property selection tool with projection on the Map according to filters definable by the user.
-    - Repository of predefined themes:
-         - c)Cadastral value maps.
-         - d)Maps of land uses.
-         - e)Maps for the amount of the property tax.
-    - **YOU CAN SEE A DEMONSTRATION OF THE TOOL IN THIS [LINK](https://sede.galileoiys.es/publico/territorio/catastro#)**
-4. **Extended Functionality. (Version 2). DECEMBER 2018** (*).
-    - Data loading tool in the model on XML format.
-    - Extension of tax analysis tools.
-    - Security / audit module.
-    - Local facilities and / or in the cloud. Hosting services.
-    - Generation of cadastral certificates / certificates.
-    - GeoProcessing tools (selection by buffers, merge, etc.).
-    - Generation of collection receipts, tax rates and exemptions.
-    - Integration with municipal collection systems. Exchange files and direct debits banks.
-5. **Extended Functionality II (Version 3). JULY 2019** (*).
-    - Extension of the model to other repositories of Multipurpose Cadastre:
-         - a)Integration with Property Registries and Notariats (and / or other Entities).
-         - b)Planning, Infrastructure and municipal equipment.
-         - c)Rural Cadastre.
-    - Development of the '_Catastro Virtual Office_' for Citizens, Consultations, Cadastral Mutation File Processing, Telematic Payments, Cadastral Tax Transparency.
+1. **Basic System Functionality (Version 1). AUGUST 2018**.
+    - Implementation of the multi-country Cadastral System with open source components.
+        - Functionality for the inclusion of cadastral, parcel and orthophoto maps.
+        - Consultations of plots with the data of dimensions, cadastral values, uses and others.
+        - Superposition of cartography with cadastral maps to improve tax inspection.
+        - Making available to the municipalities of the Geographic Viewer as a projection tool for the cadastral parcel.
+     - Processes available for creation of layers and files '.SLD' for GeoServer.
+     - Client viewer for:
+        - Consultation of properties by selecting on the Map (property record).
+        - Street View viewer associated with the cadastral parcels.
+        - Property selection tool with projection on the Map according to definable filters.
+        - Repository of predefined cadastral themes: Cadastral value maps; Maps of land uses; Maps by property tax collection ratio; Crop maps
+      - **YOU CAN SEE A DEMONSTRATION OF THE TOOL IN THIS [LINK] (https://sede.galileoiys.es/publico/territorio/catastro#)**
+2. **Extended Functionality. (Version 2). DECEMBER 2018** (*).
+    - Automation with data loading tool in standard XML format.
+    - Exchange models of mutation files with national cadastral authorities.
+    - Extension of tax analysis tools.
+    - Security / audit module.
+    - Local facilities and / or in the cloud. Hosting services.
+    - Generation of cadastral certificates / certificates. Property inquiries
+    - GeoProcessing tools (selection by buffers, merge, etc.).
+    - Generation of collection receipts, tax rates and exemptions.
+    - Integration with municipal collection systems. Exchange files and direct debits banks.
+3. **Extended Functionality II (Version 3). JULY 2019** (*).
+    - Extension of the model to other repositories of ** _ Multipurpose Cadastre _ **:
+         - Integration with Property Registries and Notariats (and / or other Entities).
+         - Control of cadastral mutations. Tests with Blockchain.
+         - Planning, Infrastructure and municipal equipment.
+         - Rural Cadastre.
+    - Development of the **_'Virtual Cadastral Office'_** online for Citizens' Consultations, Processing of cadastre changes, Telematic Payments, Cadastral Tax Transparency.
 
 (*) _The extended functionalities can suppose contracting costs._
 
