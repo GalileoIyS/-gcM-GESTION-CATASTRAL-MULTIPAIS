@@ -60,14 +60,13 @@ En este apartado explicaremos la dependencias necesarias para construir la plata
 
 #### 1. Dependencias
 Los componentes necesarios para poder desplegar la plataforma son los siguientes:
-- Entorno de desarrollo **Microsoft Visual Studio Core**.
-- **ASP.net Core 2** (para ser publicado en servidores de aplicaciones en Unix, Linux, Ios y Windows). Utilizar "_npm install_" para descargar todas las depencias del proyecto.
+- **Microsoft Visual Studio Code** como entorno de desarrollo para programar la interfaz de cliente. Utilizar "_npm install_" para descargar e instalar todas las depencias del proyecto.
+- **Microsoft Visual Studio 2017** para el desarrollo de la API de servicios web en el lado del servidor. El uso de la tecnología **ASP.net Core 2** permite la publicación en cualquier servidor de aplicaciones web, ya sea en Unix, Linux, Mac o Windows. 
 - **PostgreSQL** 9.4, o superior, con extensión **PostGIS**, o bien **Oracle** 10.2 o superior con **Spatial Data Option** (SDO).
 - **JDeveloper** 12.2, o superior.
 - **Geoserver** 2.13, o superior, como servidor de mapas (publicación wms).
 - **Leaflet** ver. 1.3 como visualizador de mapas. En el archivo "_LeafletPaje.js_" se encuentra la definición de las capas del mapa, que deberá editarse para ajustarlo a su configuración deseada.
 - Recomendable utilizar la herramienta **"Atlas Styler"**, descargable de internet, para definir los estilos (ficheros .sld) de los mapas temáticos.
-- **¿¿Servidor Web IIS ver. 8 o superior.??**
 
 #### 2. Instalación de las Bases de Datos
 En esta primera versión ofrecemos soporte para dos gestores de base de datos (PostgreSQL y Oracle). La instalación de los repositorios de datos puede ser llevada a cabo mediante la carga de scripts que pueden ser ejecutados desde herramientas específicas de las bases de datos como ***psql*** o ***SqlPlus***.
