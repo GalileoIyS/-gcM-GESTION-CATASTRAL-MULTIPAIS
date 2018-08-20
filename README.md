@@ -88,8 +88,12 @@ El siguiente paso será clicar sobre el sistema operativo que soporte nuestro eq
 
 En la carpeta '_Geoserver_' del repositorio dejamos ejemplos de cómo definir el 'html' de respuesta a una petición de información en el mapa. Incluimos un fichero "_content.ftl_", "_footer.ftl_" y "_header.ftl_" para su utilización.
 
-#### 4. Instalación y configuración del Website.
+#### 4. Instalación y configuración de la API.
+Abrir mediante el Visual Studio 2017, la solución **GCMServer** compuesta por dos proyectos: 
+* GCMClases: Librería en Visual Basic .Net para la conexión a la Base de Datos
+* GCMServer: Definición de los diferentes controladores y acciones que formaran parte de la API pública.
 
+En este último proyecto, encontraremos un fichero de configuración llamado **app.config** donde deberemos configurar con la cadena de conexión correcta hacia nuestra base de datos PostgreSQL.
 
 ### Desarrollo
 ---
