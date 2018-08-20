@@ -88,7 +88,7 @@ El siguiente paso será clicar sobre el sistema operativo que soporte nuestro eq
 
 En la carpeta '_Geoserver_' del repositorio dejamos ejemplos de cómo definir el 'html' de respuesta a una petición de información en el mapa. Incluimos un fichero "_content.ftl_", "_footer.ftl_" y "_header.ftl_" para su utilización.
 
-#### 4. Instalación y configuración de la Web API.
+#### 4. Instalación y configuración de la REST Web API.
 Abrir mediante Visual Studio 2017 la solución **GCMServer** compuesta por dos proyectos: 
 - **GCMClases**: Librería desarrollada en Visual Basic .Net para construir la capa de conexión a la Base de Datos.
 - **GCMServer**: Proyecto c# en ASP.Net Core 2 para la definición de los diferentes controladores y acciones que formaran parte de la API pública.
