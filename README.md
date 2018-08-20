@@ -106,8 +106,10 @@ Los componentes necesarios para desarrollar son los siguientes:
 #### 1. JDeveloper 12.2
 Hemos utilizado JDeveloper 12.2, con la función Desarrollador de bases de datos, para diseñar el repositorio.
 El espacio de trabajo de diseño se encuentra en **Modelo LADM \ DBModelling**.
-#### 2. Visual Studio Core
-Como se ha indicado, empleamos entorno de desarrollo Microsoft Visual Studio Core y ASP.net Core 2 para publicación.
+#### 2. Visual Studio 2017
+Empleamos el entorno de desarrollo Microsoft Visual Studio 2017 con ASP.net Core 2 para el desarrollo de los servicios web en el lado del servidor. Lenguaje Visuqal Basic.Net para las librerías de clases que definen la interfaz con la base de datos y C# para el código de los controladores y acciones de los diferentes servicios web.
+#### 3. Visual Studio Code
+Empleamos el entorno de desarrollo Microsoft Visual Studio Code para el desarrollo de la interfaz de cliente. Se utiliza el framework de javascript **React** junto con el estilo **material** para construir la interfaz del cliente siguiendo un patrón de diseño SPA (Single Page Application).
 
 #### 3. ¿XXXXXXXXXXXXXXXXXX?
 
