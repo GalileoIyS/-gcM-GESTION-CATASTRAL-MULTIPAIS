@@ -89,11 +89,16 @@ El siguiente paso será clicar sobre el sistema operativo que soporte nuestro eq
 En la carpeta '_Geoserver_' del repositorio dejamos ejemplos de cómo definir el 'html' de respuesta a una petición de información en el mapa. Incluimos un fichero "_content.ftl_", "_footer.ftl_" y "_header.ftl_" para su utilización.
 
 #### 4. Instalación y configuración de la API.
-Abrir mediante el Visual Studio 2017, la solución **GCMServer** compuesta por dos proyectos: 
-* GCMClases: Librería en Visual Basic .Net para la conexión a la Base de Datos
-* GCMServer: Definición de los diferentes controladores y acciones que formaran parte de la API pública.
+Abrir mediante Visual Studio 2017, la solución **GCMServer** compuesta por dos proyectos: 
+- **GCMClases**: Librería desarrollada en Visual Basic .Net para construir la capa de conexión a la Base de Datos.
+- **GCMServer**: Proyecto c# en ASP.Net Core 2 para la definición de los diferentes controladores y acciones que formaran parte de la API pública.
 
 En este último proyecto, encontraremos un fichero de configuración llamado **app.config** donde deberemos configurar con la cadena de conexión correcta hacia nuestra base de datos PostgreSQL.
+
+#### 5. Instalación y configuración del cliente web.
+Abrir mediante Visual Studio Core, la solución **GCMClient** y posteriormente ejecutar el comando "_npm install --save_" para descargar e instalar todas las librerías secundarias necesarias. Para hacer esto, es necesario comprobar que tenemos instalado una versión reciente del paquete "_node.js_".
+
+Una vez instalado, podemos ejecutarlo mediante el comando "_npm start_" en el terminal integrado que viene con Visual Studio Code.
 
 ### Desarrollo
 ---
