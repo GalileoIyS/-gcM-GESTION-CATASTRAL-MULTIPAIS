@@ -28,7 +28,7 @@ La evolución futura de esta plataforma irá en la línea de convertirse, ademá
         - Visor de Street View asociado a las parcelas catastrales.
         - Herramienta de selección de predios con proyección en el Mapa según filtros definibles.
         - Repositorio de temáticos catastrales predefinidos: Mapas de valor catastral; Mapas de usos prediales; Mapas por ratio de cobro del impuesto predial; Mapas de cultivos.
-      - **PUEDE VERSE UNA DEMOSTRACIÓN DE LA HERRAMIENTA EN ESTE [LINK](https://sede.galileoiys.es/publico/territorio/catastro#)**
+      - **PUEDE VERSE UNA DEMOSTRACIÓN DE LA HERRAMIENTA EN ESTE [LINK](http://gcmclient.galileoiys.es)**
 2.	**Funcionalidad Extendida. (Versión 2). DICIEMBRE 2018** (*).
     - Automatización con herramienta de carga de datos en formato estándar XML.
     - Modelos de intercambio de ficheros de mutaciones con autoridades catastrales nacionales.
@@ -139,7 +139,7 @@ Para más detalles, ver el documento [CODE-OF-CONDUCT.md](CODE-OF-CONDUCT.md).
 
 ### Información Adicional / DEMOSTRACIÓN
 ---
-**Hemos preparado una [página web](https://sede.galileoiys.es/publico/territorio/catastro#) en la que se puede ver en operación la plataforma, así como obtener más información sobre el proyecto, líneas futuras de desarrollo, etc.**
+**Hemos preparado una [página web](http://gcmclient.galileoiys.es) en la que se puede ver en operación la plataforma, así como obtener más información sobre el proyecto, líneas futuras de desarrollo, etc.**
 
 Si lo desea, puede ver el [Resumen Ejecutivo](ResumenEjecutivo.pdf) para obtener información ampliada sobre el proyecto.
 
