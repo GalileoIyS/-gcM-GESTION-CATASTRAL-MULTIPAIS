@@ -111,7 +111,6 @@ Empleamos el entorno de desarrollo Microsoft Visual Studio 2017 con ASP.net Core
 #### 3. Visual Studio Code
 Empleamos el entorno de desarrollo Microsoft Visual Studio Code para el desarrollo de la interfaz de cliente. Se utiliza el framework de javascript **React** junto con el estilo **material** para construir la interfaz del cliente siguiendo un patrón de diseño SPA (Single Page Application).
 
-#### 3. ¿XXXXXXXXXXXXXXXXXX?
 
 ### Código de conducta 
 ---
