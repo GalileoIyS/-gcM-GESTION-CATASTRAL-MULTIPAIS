@@ -1,0 +1,9 @@
+F:\WorkSpace\gcm\gcmclases\GCMClases\bin\Release\netstandard2.0\GCMClases.deps.json
+F:\WorkSpace\gcm\gcmclases\GCMClases\bin\Release\netstandard2.0\GCMClases.dll
+F:\WorkSpace\gcm\gcmclases\GCMClases\bin\Release\netstandard2.0\GCMClases.pdb
+F:\WorkSpace\gcm\gcmclases\GCMClases\obj\Release\netstandard2.0\GCMClases.vbprojAssemblyReference.cache
+F:\WorkSpace\gcm\gcmclases\GCMClases\obj\Release\netstandard2.0\GCMClases.vbproj.CoreCompileInputs.cache
+F:\WorkSpace\gcm\gcmclases\GCMClases\obj\Release\netstandard2.0\GCMClases.AssemblyInfoInputs.cache
+F:\WorkSpace\gcm\gcmclases\GCMClases\obj\Release\netstandard2.0\GCMClases.AssemblyInfo.vb
+F:\WorkSpace\gcm\gcmclases\GCMClases\obj\Release\netstandard2.0\GCMClases.dll
+F:\WorkSpace\gcm\gcmclases\GCMClases\obj\Release\netstandard2.0\GCMClases.pdb
