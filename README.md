@@ -56,7 +56,7 @@ Explica los pasos básicos sobre cómo usar la herramienta digital. Es una buena
 ### Guía de instalación
 ---
 
-En este apartado explicaremos la dependencias necesarias para construir la plataforma así como el procedimiento de instalación y puesta en marcha de la misma.
+En este apartado explicaremos la dependencias necesarias para construir la plataforma así como el procedimiento de instalación y puesta en marcha de la misma. Se prevé ampliar los contenidos de las guías con mayor amplitud y ejemplos prácticos a lo largo del mes de septiembre del año 2018.
 
 #### 1. Dependencias
 Los componentes necesarios para poder desplegar la plataforma son los siguientes:
@@ -107,9 +107,9 @@ Los componentes necesarios para desarrollar son los siguientes:
 Hemos utilizado JDeveloper 12.2, con la función Desarrollador de bases de datos, para diseñar el repositorio.
 El espacio de trabajo de diseño se encuentra en **Modelo LADM \ DBModelling**.
 #### 2. Visual Studio 2017
-Empleamos el entorno de desarrollo Microsoft Visual Studio 2017 con ASP.net Core 2 para el desarrollo de los servicios web en el lado del servidor. Lenguaje Visuqal Basic.Net para las librerías de clases que definen la interfaz con la base de datos y C# para el código de los controladores y acciones de los diferentes servicios web.
+Empleamos el entorno de desarrollo Microsoft Visual Studio 2017 con ASP.net Core 2 para el desarrollo de los servicios web en el lado del servidor. Dentro de esta solución, encontraremos dos proyectos. Uno de ellos escrito en el lenguaje de programación Visual Basic.Net para las librerías de clases que definen la conexión con la base de datos y otro proyecto en lenguaje C# para el código de los controladores y acciones de los diferentes servicios web.
 #### 3. Visual Studio Code
-Empleamos el entorno de desarrollo Microsoft Visual Studio Code para el desarrollo de la interfaz de cliente. Se utiliza el framework de javascript **React** junto con el estilo **material** para construir la interfaz del cliente siguiendo un patrón de diseño SPA (Single Page Application).
+Empleamos el entorno de desarrollo Microsoft Visual Studio Code para el desarrollo de la interfaz de cliente. Para ello, se ha utilizado el framework de javascript conocido como **React** junto con el estilo **material** para construir la interfaz del cliente siguiendo un patrón de diseño SPA (Single Page Application).
 
 
 ### Código de conducta 
