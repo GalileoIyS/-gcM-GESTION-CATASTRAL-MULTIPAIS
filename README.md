@@ -108,8 +108,13 @@ Hemos utilizado JDeveloper 12.2, con la función Desarrollador de bases de datos
 El espacio de trabajo de diseño se encuentra en **Modelo LADM \ DBModelling**.
 #### 2. Visual Studio 2017
 Empleamos el entorno de desarrollo Microsoft Visual Studio 2017 con ASP.net Core 2 para el desarrollo de los servicios web en el lado del servidor. Dentro de esta solución, encontraremos dos proyectos. Uno de ellos escrito en el lenguaje de programación Visual Basic.Net para las librerías de clases que definen la conexión con la base de datos y otro proyecto en lenguaje C# para el código de los controladores y acciones de los diferentes servicios web.
+
+El código de ambos proyectos está disponible dentro del directorio **gcmclases** y **gcmserver**
+
 #### 3. Visual Studio Code
 Empleamos el entorno de desarrollo Microsoft Visual Studio Code para el desarrollo de la interfaz de cliente. Para ello, se ha utilizado el framework de javascript conocido como **React** junto con el estilo **material** para construir la interfaz del cliente siguiendo un patrón de diseño SPA (Single Page Application).
+
+El código de este proyecto está disponible dentro del directorio **gcmclient**
 
 
 ### Código de conducta 
