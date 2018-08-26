@@ -1,7 +1,7 @@
-## \{gcM\} Gestión Catastral Multipaís
-*Esta herramienta digital forma parte del catálogo de herramientas del **Banco Interamericano de Desarrollo**[code.iadb.org](code.iadb.org)*.
+## Gestión Catastral Multipaís \{gcM\} 
+*Esta herramienta digital forma parte del catálogo de herramientas del **Banco Interamericano de Desarrollo** [code.iadb.org](code.iadb.org)*.
 
-La Plataforma **Gestión Catastral Multipaís** permite el tratamiento, consulta y actualización continua de la información catastral de un territorio. Con esta herramienta, funcionarios de las administraciones públicas pueden gestionar los tributos que afectan a la mayor fuente de ingresos de administraciones territoriales y conectarlo con diferentes áreas de la administración.
+La Plataforma **Gestión Catastral Multipaís** permite el tratamiento, consulta y actualización continua de la información catastral de un territorio. Con esta herramienta, funcionarios de las administraciones públicas pueden gestionar los tributos que afectan a la mayor fuente de ingresos de administraciones territoriales y conectarlo con diferentes áreas de la administración. (Ver demo en http://gcmclient.galileoiys.es/)
 
 > **gcM gestiona la información necesaria para la gestión de cobros y contribuyentes. (Información física y jurídica de inmuebles y propietarios, información de mapas del territorio y de información)**
 
@@ -11,36 +11,29 @@ gcM está implementado con el modelo de datos territoriales denominado **LADM** 
 
 ### Guía de instalación
 ---
+#### 1. Prerequisitos
 
-En este apartado explicaremos la dependencias necesarias para construir la plataforma así como el procedimiento de instalación y puesta en marcha de la misma. Se prevé ampliar los contenidos de las guías con mayor amplitud y ejemplos prácticos a lo largo del mes de septiembre del año 2018.
-
-#### 1. Dependencias
-Los componentes necesarios para poder desplegar la plataforma son los siguientes:
-- **Microsoft Visual Studio Code** como entorno de desarrollo para programar la interfaz de cliente. Utilizar "_npm install_" para descargar e instalar todas las depencias del proyecto.
-- **Microsoft Visual Studio 2017** para el desarrollo de la API de servicios web en el lado del servidor. El uso de la tecnología **ASP.net Core 2** permite la publicación en cualquier servidor de aplicaciones web, ya sea en Unix, Linux, Mac o Windows. 
-- **PostgreSQL** 9.4, o superior, con extensión **PostGIS**, o bien **Oracle** 10.2 o superior con **Spatial Data Option** (SDO).
+- **Microsoft Visual Studio Code** Utilizar "_npm install_" para descargar e instalar todas las depencias del proyecto.
+- **Microsoft Visual Studio 2017** 
+- **PostgreSQL** (9.4, o superior, con extensión PostGIS), o bien **Oracle** (10.2 o superior con Spatial Data Option (SDO))
 - **JDeveloper** 12.2, o superior.
 - **Geoserver** 2.13, o superior, como servidor de mapas (publicación wms).
-- **Leaflet** ver. 1.3 como visualizador de mapas. En el archivo "_LeafletPaje.js_" se encuentra la definición de las capas del mapa, que deberá editarse para ajustarlo a su configuración deseada.
-- Recomendable utilizar la herramienta **"Atlas Styler"**, descargable de internet, para definir los estilos (ficheros .sld) de los mapas temáticos.
+- **Leaflet** (versión 1.3). El archivo "_LeafletPaje.js_" se encuentra la definición de las capas del mapa, que deberá editarse para ajustarlo a su configuración deseada.
+- Recomendado: **"Atlas Styler"**, para definir los estilos (ficheros .sld) de los mapas temáticos.
 
 #### 2. Instalación de las Bases de Datos
-En esta primera versión ofrecemos soporte para dos gestores de base de datos (PostgreSQL y Oracle). La instalación de los repositorios de datos puede ser llevada a cabo mediante la carga de scripts que pueden ser ejecutados desde herramientas específicas de las bases de datos como ***psql*** o ***SqlPlus***.
+Soporte para PostgreSQL y Oracle). Contactar con desarrolladores para configuración con otras bases de datos. 
 
-La instalación mediante scripts es un proceso manual menos automatizado, pero permite un mayor control del proceso de creación del repositorio de datos.
+Para instalar las bases de datos es necesario cargar los scripts en las herramientas específicas de las bases de datos como ***psql*** o ***SqlPlus***.
 
 - __*Instalación en PostgreSQL.*__ 
-> Los scripts necesarios para crear el repositorio están [aquí](/Databases/Postgres/) y deben ser ejecutados mediante ***psql***.
-Leer el fichero ***Readme.txt*** para instrucciones detalladas sobre como llevar a cabo este proceso.
+> Scripts [aquí](/Databases/Postgres/). Ejecutar mediante ***psql***. El fichero [Readme.txt](https://github.com/GalileoIyS/-gcM-GESTION-CATASTRAL-MULTIPAIS/tree/master/Databases/Postgres) contiene las instrucciones específicas.
 
 - __*Instalación en Oracle.*__ 
-> Los scripts necesarios para crear el repositorio están [aquí](/Databases/Oracle/) y deben ser ejecutados mediante ***SqlPlus***.
-Leer el fichero ***Readme.txt*** para instrucciones detalladas sobre como llevar a cabo este proceso.
+> Scripts [aquí](/Databases/Oracle/). Ejecutar mediante ***SqlPlus***. El fichero [Readme.txt](https://github.com/GalileoIyS/-gcM-GESTION-CATASTRAL-MULTIPAIS/tree/master/Databases/Oracle) contiene las instrucciones específicas.
 
 #### 3. Instalación y configuración de GeoServer.
-Para la descarga de Geoserver, lo primero es acudir a la página oficial del software libre http://geoserver.org/ y pinchar sobre la versión estable, identificada sobre un cuadro en color verde.
-
-El siguiente paso será clicar sobre el sistema operativo que soporte nuestro equipo. Pinchamos sobre él para descargar el paquete de Geoserver. Una vez descargado, le damos a ejecutar y procederemos a la instalación siguiendo el asistente, e introduciendo los datos que se van pidiendo (directorio de datos, nombre de usuario y contraseña, puerto y otros).
+Descargar e instalar [Geoserver](http://geoserver.org/) para la versión de tu sistema operativo.
 
 En la carpeta '_Geoserver_' del repositorio dejamos ejemplos de cómo definir el 'html' de respuesta a una petición de información en el mapa. Incluimos un fichero "_content.ftl_", "_footer.ftl_" y "_header.ftl_" para su utilización.
 
@@ -68,15 +61,10 @@ Empleamos el entorno de desarrollo Microsoft Visual Studio 2017 con ASP.net Core
 El código de ambos proyectos estan disponibles dentro de los directorios **gcmclases/GCMClases** y **gcmserver**
 
 #### 3. Visual Studio Code
-Empleamos el entorno de desarrollo Microsoft Visual Studio Code para el desarrollo de la interfaz de cliente. Para ello, se ha utilizado el framework de javascript conocido como **React** junto con el estilo **material** para construir la interfaz del cliente siguiendo un patrón de diseño SPA (Single Page Application).
-
-El código de este proyecto está disponible dentro del directorio **gcmclient**
-
+Empleamos el entorno de desarrollo Microsoft Visual Studio Code para el desarrollo de la interfaz de cliente. Para ello, se ha utilizado el framework de javascript conocido como **React** junto con el estilo **material** para construir la interfaz del cliente siguiendo un patrón de diseño SPA (Single Page Application). Ver código en el directorio /gcmclient.
 
 ### Código de conducta 
 ---
-El código de conducta establece las normas sociales, reglas y responsabilidades que los individuos y organizaciones deben seguir al interactuar de alguna manera con la herramienta digital o su comunidad. 
-
 Para más detalles, ver el documento [CODE-OF-CONDUCT.md](CODE-OF-CONDUCT.md). 
 
 ### Autoría
