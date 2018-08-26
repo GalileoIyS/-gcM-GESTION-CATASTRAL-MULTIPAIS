@@ -1,58 +1,14 @@
 ## \{gcM\} Gestión Catastral Multipaís
-*Esta herramienta digital forma parte del catálogo de herramientas del **Banco Interamericano de Desarrollo**. Puedes conocer más sobre la iniciativa del BID en [code.iadb.org](code.iadb.org)*
+*Esta herramienta digital forma parte del catálogo de herramientas del **Banco Interamericano de Desarrollo**[code.iadb.org](code.iadb.org)*.
 
-<!-- COMO AÑADIR UNA IMAGEN: ![image Info](file:///F:/Documentos/Proyectos/BID/Github/Images/IBI.png "Descripción de la imagen")
--->
+La Plataforma **Gestión Catastral Multipaís** permite el tratamiento, consulta y actualización continua de la información catastral de un territorio. Con esta herramienta, funcionarios de las administraciones públicas pueden gestionar los tributos que afectan a la mayor fuente de ingresos de administraciones territoriales y conectarlo con diferentes áreas de la administración.
 
+> **gcM gestiona la información necesaria para la gestión de cobros y contribuyentes. (Información física y jurídica de inmuebles y propietarios, información de mapas del territorio y de información)**
 
-### Descripción y contexto
----
+*¿Y por qué ´Multipaís´?*
 
-Esta plataforma que presentamos, denominada Plataforma de ***Gestión Catastral Multipaís*** está dirigida a aquellas entidades públicas que deseen disponer de una herramienta abierta de análisis, explotación e inspección de la información catastral en las múltiples áreas involucradas en una administración.
+gcM está implementado con el modelo de datos territoriales denominado **LADM** (*Land Administration Domain Model - ISO 19152*). Este modelo catastral está calificado como un estándar que se puede adaptar a las realidades de los modelos de datos de diferentes paises, permitiendo que gcM se pueda ajustar a las especificidades de cada país.
 
-Como elemento diferenciador, hemos implementado, como modelo de datos subyacente, el modelo denominado **LADM** (*Land Administration Domain Model - ISO 19152*). Este modelo catastral está calificado como un estándar que se puede adaptar a las realidades de los modelos de datos catastrales básicos de diferentes paises, permitiendo extensiones que ajusten el modelo básico a las especificidades de cada país.
-
-La evolución futura de esta plataforma irá en la línea de convertirse, además, en una herramienta de gestión integral de la información catastral, permitiendo la emisión de cédulas catastrales, enlazando con otros repositorios de datos como pueden ser la planeación, infraestructuras, etc., soportando los procesos de valoración, actualización continua del parcelario catastral, de la información física y jurídica de los inmuebles y propietarios y de la información necesaria para la gestión de cobros y contribuyentes del impuesto predial.
-
-### Calendario y Ciclos de despliegue del Sistema ([ver documento de calendario](Calendario.pdf))
----
-1.	**Funcionalidad Básica del Sistema (Versión 1). AGOSTO 2018**.
-    - Implementación del Sistema Catastral multipaís con componentes de código abierto.
-        - Funcionalidad para la Inclusión de mapas catastrales, parcelarios y ortofotografías.
-        - Consultas de parcelas con los datos de dimensiones, valores catastrales, usos y otros.
-        - Superposición de cartografía con mapas de catastro para mejorar la inspección tributaria.
-        - Puesta a disposición de las municipalidades del Visor geográfico como herramienta de proyección del parcelario catastral.
-     - Procesos disponibles para creación de capas y ficheros ‘.SLD’ para GeoServer.
-     - Visor cliente para:
-        - Consulta de predios seleccionando en el Mapa (ficha de predio).
-        - Visor de Street View asociado a las parcelas catastrales.
-        - Herramienta de selección de predios con proyección en el Mapa según filtros definibles.
-        - Repositorio de temáticos catastrales predefinidos: Mapas de valor catastral; Mapas de usos prediales; Mapas por ratio de cobro del impuesto predial; Mapas de cultivos.
-      - **PUEDE VERSE UNA DEMOSTRACIÓN DE LA HERRAMIENTA EN ESTE [LINK](http://gcmclient.galileoiys.es)**
-2.	**Funcionalidad Extendida. (Versión 2). DICIEMBRE 2018** (*).
-    - Automatización con herramienta de carga de datos en formato estándar XML.
-    - Modelos de intercambio de ficheros de mutaciones con autoridades catastrales nacionales.
-    - Extensión de herramientas de análisis tributario.
-    - Módulo de seguridad/auditoría.
-    - Instalaciones locales y/o en la nube. Servicios de hospedaje.
-    - Generación de cédulas/certificados catastrales. Consultas de predios.
-    - Herramientas de GeoProcesamiento (selección por buffers, merge, etc.).
-    - Generación recibos cobratorios, tipos impositivos y exenciones.
-    - Integración con sistemas cobratorios municipales. Intercambio ficheros y domiciliaciones bancos.
-3.	**Funcionalidad Extendida II (Versión 3). JULIO 2019** (*).
-    - Extensión del modelo a otros repositorios de **_Catastro Multipropósito_**:
-         - Integración con Registros de Propiedad y Notariados (y/u otras Entidades). 
-         - Control de mutaciones catastrales. Pruebas con Blockchain.
-         - Planeación, Infraestructuras y equipamiento municipal.
-         - Catastro Rural.
-    -  Desarrollo de la **_‘Oficina Virtual de Catastro’_** en línea para Consultas de ciudadanos, Tramitación de expedientes de mutaciones catastrales, Pagos telemáticos, Transparencia tributaria catastral.
-    
-(*) _Las funcionalidades extendidas pueden suponer costes de contratación._
-
-### Guía de usuario
----
-Explica los pasos básicos sobre cómo usar la herramienta digital. Es una buena sección para mostrar capturas de pantalla o gifs que ayuden a entender la herramienta digital.
- 	
 ### Guía de instalación
 ---
 
@@ -147,6 +103,10 @@ Para más detalles, ver el documento [CODE-OF-CONDUCT.md](CODE-OF-CONDUCT.md).
 
 Si lo desea, puede ver el [Resumen Ejecutivo](ResumenEjecutivo.pdf) para obtener información ampliada sobre el proyecto.
 
+La evolución futura de esta plataforma irá en la línea de convertirse, además, en una herramienta de gestión integral de la información catastral, permitiendo la emisión de cédulas catastrales, enlazando con otros repositorios de datos como pueden ser la planeación, infraestructuras, etc., soportando los procesos de valoración, actualización continua del parcelario catastral, de la información física y jurídica de los inmuebles y propietarios y de la información necesaria para la gestión de cobros y contribuyentes del impuesto predial.
+
+### Calendario y Ciclos de despliegue del Sistema ([ver documento de calendario](Calendario.pdf))
+
 ### Licencia 
 ---
 El código fuente ha sido liberado bajo una licencia BSD. Para más detalles leer el documento [LICENSE.md](LICENSE.md).
@@ -159,3 +119,4 @@ Galileo IyS no será responsable, bajo circunstancia alguna, de daño ni indemni
 1. Bajo cualquier teoría de responsabilidad, ya sea por contrato, infracción de derechos de propiedad intelectual, negligencia o bajo cualquier otra teoría; y/o
 2. A raíz del uso de la Herramienta Digital, incluyendo, pero sin limitación de potenciales defectos en la Herramienta Digital, o la pérdida o inexactitud de los datos de cualquier tipo. Lo anterior incluye los gastos o daños asociados a fallas de comunicación y/o fallas de funcionamiento de computadoras, vinculados con la utilización de la Herramienta Digital.
 
+> **Mejorar los niveles de control sobre la recaudación tributaria predial, permite el desarrollo económico y social de los territorios.**
