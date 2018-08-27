@@ -8,15 +8,16 @@ La Plataforma **Gestión Catastral Multipaís** permite el tratamiento, consulta
 *¿Y por qué Multipaís?*
 gcM está implementado con el modelo de datos territoriales denominado **LADM** (*Land Administration Domain Model - ISO 19152*). Este modelo catastral está calificado como un estándar que se puede adaptar a las realidades de los modelos de datos de diferentes paises, permitiendo que gcM se pueda ajustar a las especificidades de cada país.
 
-### Esta herramienta ha sido desarrollada por [Galileo Ingeniería y Servicios](http://www.galileoiys.com/), especializada en la gestión electrónica de las administraciones públicas. 
+**Esta herramienta ha sido desarrollada por [Galileo Ingeniería y Servicios](http://www.galileoiys.com/), especializada en la gestión electrónica de las administraciones públicas.**
 
 ### Funcionalidades
-Versión 1
+---
+**Versión 1**
 - Instalación y configuración de bases de datos
 - Consulta de parcelas y datos de valores catastrales, usos y otros
 - Visor Street View asociado a parcela catastral
 
-Versión 2 [Prevista para Diciembre 2018] - **Contactar para más información.**
+**Versión 2** [Prevista para Diciembre 2018] - **Contactar para más información.**
 - Automatización de la carga de datos en formato XML 
 - Herramienta de análisis tributario
 - Generación de cédulas y certificados catastrales
@@ -25,7 +26,7 @@ Versión 2 [Prevista para Diciembre 2018] - **Contactar para más información.*
 - Integración con sistemas cobratorios municipales - (Ver otros productos de Galileo para [más información](http://www.galileoiys.es/productos-3/)) 
 - Servicios de hospedaje local/en la nube
 
-Versión 3 [Prevista para Julio 2019]
+**Versión 3** [Prevista para Julio 2019]
 - Integración con registro de propiedad y notariados (y otras entidades)
 - Control de mutaciones catastrales (pruebas con Blockchain)
 - Planeación, infraestructuras y equipamiento municipal
