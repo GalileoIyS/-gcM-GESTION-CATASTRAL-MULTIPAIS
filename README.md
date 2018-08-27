@@ -5,12 +5,37 @@ La Plataforma **Gestión Catastral Multipaís** permite el tratamiento, consulta
 
 > **gcM gestiona la información necesaria para la gestión de cobros y contribuyentes. (Información física y jurídica de inmuebles y propietarios, información de mapas del territorio y de información)**
 
-*¿Y por qué ´Multipaís´?*
-
+*¿Y por qué Multipaís?*
 gcM está implementado con el modelo de datos territoriales denominado **LADM** (*Land Administration Domain Model - ISO 19152*). Este modelo catastral está calificado como un estándar que se puede adaptar a las realidades de los modelos de datos de diferentes paises, permitiendo que gcM se pueda ajustar a las especificidades de cada país.
+
+### Esta herramienta ha sido desarrollada por [Galileo Ingeniería y Servicios](http://www.galileoiys.com/), especializada en la gestión electrónica de las administraciones públicas. 
+
+### Funcionalidades
+Versión 1
+- Instalación y configuración de bases de datos
+- Consulta de parcelas y datos de valores catastrales, usos y otros
+- Visor Street View asociado a parcela catastral
+
+Versión 2 [Prevista para Diciembre 2018] - **Contactar para más información.**
+- Automatización de la carga de datos en formato XML 
+- Herramienta de análisis tributario
+- Generación de cédulas y certificados catastrales
+- Modelo de intercambio de ficheros de datos con autoridades catastrales nacionales
+- Generación de recibos cobratorios, tipos impositivos y exenciones
+- Integración con sistemas cobratorios municipales - (Ver otros productos de Galileo para [más información](http://www.galileoiys.es/productos-3/)) 
+- Servicios de hospedaje local/en la nube
+
+Versión 3 [Prevista para Julio 2019]
+- Integración con registro de propiedad y notariados (y otras entidades)
+- Control de mutaciones catastrales (pruebas con Blockchain)
+- Planeación, infraestructuras y equipamiento municipal
+- Catastro rural
+- Desarrollo de la **Oficina Virtual de Catastro** en línea para consultas de ciudadanos, tramitación de expedientes, pagos telemáticos, y transparencia tributaria.
 
 ### Guía de instalación
 ---
+[Galileo Ingeniería y Servicios](http://www.galileoiys.com/) ofrece soporte para la instalación y configuración de la herramienta. Contactar a info@galileoiys.com para más información.
+
 #### 1. Prerequisitos
 
 - **Microsoft Visual Studio Code** Utilizar "_npm install_" para descargar e instalar todas las depencias del proyecto.
@@ -26,10 +51,10 @@ Soporte para PostgreSQL y Oracle). Contactar con desarrolladores para configurac
 
 Para instalar las bases de datos es necesario cargar los scripts en las herramientas específicas de las bases de datos como ***psql*** o ***SqlPlus***.
 
-- __*Instalación en PostgreSQL.*__ 
+- Instalación en PostgreSQL
 > Scripts [aquí](/Databases/Postgres/). Ejecutar mediante ***psql***. El fichero [Readme.txt](https://github.com/GalileoIyS/-gcM-GESTION-CATASTRAL-MULTIPAIS/tree/master/Databases/Postgres) contiene las instrucciones específicas.
 
-- __*Instalación en Oracle.*__ 
+- Instalación en Oracle
 > Scripts [aquí](/Databases/Oracle/). Ejecutar mediante ***SqlPlus***. El fichero [Readme.txt](https://github.com/GalileoIyS/-gcM-GESTION-CATASTRAL-MULTIPAIS/tree/master/Databases/Oracle) contiene las instrucciones específicas.
 
 #### 3. Instalación y configuración de GeoServer.
@@ -58,14 +83,14 @@ El espacio de trabajo de diseño se encuentra en **Modelo LADM \ DBModelling**.
 #### 2. Visual Studio 2017
 Empleamos el entorno de desarrollo Microsoft Visual Studio 2017 con ASP.net Core 2 para el desarrollo de los servicios web en el lado del servidor. Dentro de esta solución, encontraremos dos proyectos. Uno de ellos escrito en el lenguaje de programación Visual Basic.Net para las librerías de clases que definen la conexión con la base de datos y otro proyecto en lenguaje C# para el código de los controladores y acciones de los diferentes servicios web.
 
-El código de ambos proyectos estan disponibles dentro de los directorios **gcmclases/GCMClases** y **gcmserver**
+El código de ambos proyectos estan disponibles dentro de los directorios /gcmclases/GCMClases** y /gcmserver.
 
 #### 3. Visual Studio Code
 Empleamos el entorno de desarrollo Microsoft Visual Studio Code para el desarrollo de la interfaz de cliente. Para ello, se ha utilizado el framework de javascript conocido como **React** junto con el estilo **material** para construir la interfaz del cliente siguiendo un patrón de diseño SPA (Single Page Application). Ver código en el directorio /gcmclient.
 
 ### Código de conducta 
 ---
-Para más detalles, ver el documento [CODE-OF-CONDUCT.md](CODE-OF-CONDUCT.md). 
+[CODE-OF-CONDUCT.md](CODE-OF-CONDUCT.md). 
 
 ### Autoría
 ---
@@ -87,17 +112,15 @@ Para más detalles, ver el documento [CODE-OF-CONDUCT.md](CODE-OF-CONDUCT.md).
 
 ### Información Adicional / DEMOSTRACIÓN
 ---
-**Hemos preparado una [página web](http://gcmclient.galileoiys.es) en la que se puede ver en operación la plataforma, así como obtener más información sobre el proyecto, líneas futuras de desarrollo, etc.**
+[Resumen Ejecutivo](ResumenEjecutivo.pdf) para obtener información ampliada sobre el proyecto.
 
-Si lo desea, puede ver el [Resumen Ejecutivo](ResumenEjecutivo.pdf) para obtener información ampliada sobre el proyecto.
+La visión de la plataforma es ser una herramienta de gestión integral de la información catastral, permitiendo la emisión de cédulas catastrales, enlazando con otros repositorios de datos como pueden ser la planeación, infraestructuras, etc., soportando los procesos de valoración, actualización continua del parcelario catastral, de la información física y jurídica de los inmuebles y propietarios y de la información necesaria para la gestión de cobros y contribuyentes del impuesto predial.
 
-La evolución futura de esta plataforma irá en la línea de convertirse, además, en una herramienta de gestión integral de la información catastral, permitiendo la emisión de cédulas catastrales, enlazando con otros repositorios de datos como pueden ser la planeación, infraestructuras, etc., soportando los procesos de valoración, actualización continua del parcelario catastral, de la información física y jurídica de los inmuebles y propietarios y de la información necesaria para la gestión de cobros y contribuyentes del impuesto predial.
-
-### Calendario y Ciclos de despliegue del Sistema ([ver documento de calendario](Calendario.pdf))
+Ver calendario y ciclos de despliegue del Sistema en el ([calendario](Calendario.pdf))
 
 ### Licencia 
 ---
-El código fuente ha sido liberado bajo una licencia BSD. Para más detalles leer el documento [LICENSE.md](LICENSE.md).
+[Licencia BSD](LICENSE.md).
 
 ### Limitación de responsabilidades
 ---
