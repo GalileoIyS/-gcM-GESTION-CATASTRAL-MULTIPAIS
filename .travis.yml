@@ -1,2 +1,2 @@
 language: csharp
-solution: ./gcmserver/GCMServer.sln
+solution: gcmserver/GCMServer.sln
