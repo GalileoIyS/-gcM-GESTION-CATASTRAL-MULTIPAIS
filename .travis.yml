@@ -1,2 +1,2 @@
-language: visual basic
+language: csharp
 solution: ./gcmserver/GCMServer.sln
