@@ -1,3 +1,12 @@
+<a href="url"><img src="" align="left" height="48" width="48" ></a> {gcM\}Gestión Catastral Multipaís
+=======
+[![Build Status](https://travis-ci.org/rodazuero/gmapsdistance.png)](https://travis-ci.org/rodazuero/gmapsdistance) 
+![](http://cranlogs.r-pkg.org/badges/gmapsdistance?color=brightgreen)
+![](https://img.shields.io/badge/license-GPL--3-brightgreen.svg?style=flat)
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/gmapsdistance)](https://cran.r-project.org/package=gmapsdistance)
+
+
+
 ## Gestión Catastral Multipaís \{gcM\} 
 *Esta herramienta digital forma parte del catálogo de herramientas del **Banco Interamericano de Desarrollo** [code.iadb.org](code.iadb.org)*.
 
