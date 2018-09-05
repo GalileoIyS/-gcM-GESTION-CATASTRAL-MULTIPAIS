@@ -35,7 +35,7 @@ gcM está implementado con el modelo de datos territoriales denominado **LADM** 
 
 ### Guía de instalación
 ---
-Se ofrece soporte para la instalación y configuración de la herramienta. Contactar a info@galileoiys.com para más información.
+Se ofrece soporte para la instalación y configuración de la herramienta. Contactar a galileo@galileoiys.com para más información.
 
 #### 1. Prerequisitos
 
