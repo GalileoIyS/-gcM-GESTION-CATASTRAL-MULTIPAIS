@@ -1,4 +1,10 @@
 ## Gestión Catastral Multipaís \{gcM\} 
+=======
+[![Build Status](https://travis-ci.org/rodazuero/gmapsdistance.png)](https://travis-ci.org/rodazuero/gmapsdistance) 
+![](http://cranlogs.r-pkg.org/badges/gmapsdistance?color=brightgreen)
+![](https://img.shields.io/badge/license-GPL--3-brightgreen.svg?style=flat)
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/gmapsdistance)](https://cran.r-project.org/package=gmapsdistance)
+
 *Esta herramienta digital forma parte del catálogo de herramientas del **Banco Interamericano de Desarrollo** [code.iadb.org](code.iadb.org)*.
 
 La Plataforma **Gestión Catastral Multipaís** permite el tratamiento, consulta y actualización continua de la información catastral de un territorio. Con esta herramienta, funcionarios de las administraciones públicas pueden gestionar los tributos que afectan a la mayor fuente de ingresos de administraciones territoriales y conectarlo con diferentes áreas de la administración. (Ver demo en http://gcmclient.galileoiys.es/)
