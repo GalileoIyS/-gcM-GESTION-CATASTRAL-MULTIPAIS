@@ -1,7 +1,7 @@
 ## Gestión Catastral Multipaís \{gcM\} 
 
 [![Build Status](https://travis-ci.org/rodazuero/gmapsdistance.png)](https://travis-ci.org/rodazuero/gmapsdistance) 
-![](https://img.shields.io/pypi/l/Django.svg?style=flat)
+![](https://img.shields.io/badge/license-BSD-blue.svg)
 
 *Esta herramienta digital forma parte del catálogo de herramientas del **Banco Interamericano de Desarrollo** [code.iadb.org](code.iadb.org)*.
 
