@@ -16,3 +16,12 @@ F:\WorkSpace\gcm\gcmclases\GCMClases\obj\Debug\netstandard2.0\GCMClases.Assembly
 F:\WorkSpace\gcm\gcmclases\GCMClases\obj\Debug\netstandard2.0\GCMClases.dll
 F:\WorkSpace\gcm\gcmclases\GCMClases\obj\Debug\netstandard2.0\GCMClases.pdb
 F:\WorkSpace\gcm\gcmclases\GCMClases\obj\Debug\netstandard2.0\GCMClases.vbprojAssemblyReference.cache
+C:\Users\arodriguez\Documents\GitHub\-gcM-GESTION-CATASTRAL-MULTIPAIS\gcmclases\GCMClases\bin\Debug\netstandard2.0\GCMClases.deps.json
+C:\Users\arodriguez\Documents\GitHub\-gcM-GESTION-CATASTRAL-MULTIPAIS\gcmclases\GCMClases\bin\Debug\netstandard2.0\GCMClases.dll
+C:\Users\arodriguez\Documents\GitHub\-gcM-GESTION-CATASTRAL-MULTIPAIS\gcmclases\GCMClases\bin\Debug\netstandard2.0\GCMClases.pdb
+C:\Users\arodriguez\Documents\GitHub\-gcM-GESTION-CATASTRAL-MULTIPAIS\gcmclases\GCMClases\obj\Debug\netstandard2.0\GCMClases.vbprojAssemblyReference.cache
+C:\Users\arodriguez\Documents\GitHub\-gcM-GESTION-CATASTRAL-MULTIPAIS\gcmclases\GCMClases\obj\Debug\netstandard2.0\GCMClases.vbproj.CoreCompileInputs.cache
+C:\Users\arodriguez\Documents\GitHub\-gcM-GESTION-CATASTRAL-MULTIPAIS\gcmclases\GCMClases\obj\Debug\netstandard2.0\GCMClases.AssemblyInfoInputs.cache
+C:\Users\arodriguez\Documents\GitHub\-gcM-GESTION-CATASTRAL-MULTIPAIS\gcmclases\GCMClases\obj\Debug\netstandard2.0\GCMClases.AssemblyInfo.vb
+C:\Users\arodriguez\Documents\GitHub\-gcM-GESTION-CATASTRAL-MULTIPAIS\gcmclases\GCMClases\obj\Debug\netstandard2.0\GCMClases.dll
+C:\Users\arodriguez\Documents\GitHub\-gcM-GESTION-CATASTRAL-MULTIPAIS\gcmclases\GCMClases\obj\Debug\netstandard2.0\GCMClases.pdb

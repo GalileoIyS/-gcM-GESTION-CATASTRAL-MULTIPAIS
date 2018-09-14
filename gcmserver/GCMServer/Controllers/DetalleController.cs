@@ -43,6 +43,7 @@ namespace AspNetCoreApplication.Controllers
 
                     // Read the whole contents and return as a string  
                     result = reader.ReadToEnd();
+                    return Json(result);
                 }
             }
             catch
@@ -65,6 +66,7 @@ namespace AspNetCoreApplication.Controllers
                 //}
 
                 return Json(result);
+            }
         }
     }
 }

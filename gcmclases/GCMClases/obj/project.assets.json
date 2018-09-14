@@ -808,23 +808,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gregorio\\.nuget\\packages\\": {},
+    "C:\\Users\\arodriguez\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\WorkSpace\\gcm\\gcmclases\\GCMClases\\GCMClases.vbproj",
+      "projectUniqueName": "C:\\Users\\arodriguez\\Documents\\GitHub\\-gcM-GESTION-CATASTRAL-MULTIPAIS\\gcmclases\\GCMClases\\GCMClases.vbproj",
       "projectName": "GCMClases",
-      "projectPath": "F:\\WorkSpace\\gcm\\gcmclases\\GCMClases\\GCMClases.vbproj",
-      "packagesPath": "C:\\Users\\gregorio\\.nuget\\packages\\",
-      "outputPath": "F:\\WorkSpace\\gcm\\gcmclases\\GCMClases\\obj\\",
+      "projectPath": "C:\\Users\\arodriguez\\Documents\\GitHub\\-gcM-GESTION-CATASTRAL-MULTIPAIS\\gcmclases\\GCMClases\\GCMClases.vbproj",
+      "packagesPath": "C:\\Users\\arodriguez\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\arodriguez\\Documents\\GitHub\\-gcM-GESTION-CATASTRAL-MULTIPAIS\\gcmclases\\GCMClases\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\gregorio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\arodriguez\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

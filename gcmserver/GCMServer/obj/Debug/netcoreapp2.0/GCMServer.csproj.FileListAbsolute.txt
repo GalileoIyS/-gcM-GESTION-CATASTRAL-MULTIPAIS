@@ -1,0 +1,14 @@
+C:\Users\arodriguez\Documents\GitHub\-gcM-GESTION-CATASTRAL-MULTIPAIS\gcmserver\GCMServer\obj\Debug\netcoreapp2.0\GCMServer.csprojAssemblyReference.cache
+C:\Users\arodriguez\Documents\GitHub\-gcM-GESTION-CATASTRAL-MULTIPAIS\gcmserver\GCMServer\obj\Debug\netcoreapp2.0\GCMServer.csproj.CoreCompileInputs.cache
+C:\Users\arodriguez\Documents\GitHub\-gcM-GESTION-CATASTRAL-MULTIPAIS\gcmserver\GCMServer\obj\Debug\netcoreapp2.0\GCMServer.AssemblyInfoInputs.cache
+C:\Users\arodriguez\Documents\GitHub\-gcM-GESTION-CATASTRAL-MULTIPAIS\gcmserver\GCMServer\obj\Debug\netcoreapp2.0\GCMServer.AssemblyInfo.cs
+C:\Users\arodriguez\Documents\GitHub\-gcM-GESTION-CATASTRAL-MULTIPAIS\gcmserver\GCMServer\bin\Debug\netcoreapp2.0\GCMServer.deps.json
+C:\Users\arodriguez\Documents\GitHub\-gcM-GESTION-CATASTRAL-MULTIPAIS\gcmserver\GCMServer\bin\Debug\netcoreapp2.0\GCMServer.runtimeconfig.json
+C:\Users\arodriguez\Documents\GitHub\-gcM-GESTION-CATASTRAL-MULTIPAIS\gcmserver\GCMServer\bin\Debug\netcoreapp2.0\GCMServer.runtimeconfig.dev.json
+C:\Users\arodriguez\Documents\GitHub\-gcM-GESTION-CATASTRAL-MULTIPAIS\gcmserver\GCMServer\bin\Debug\netcoreapp2.0\GCMServer.dll
+C:\Users\arodriguez\Documents\GitHub\-gcM-GESTION-CATASTRAL-MULTIPAIS\gcmserver\GCMServer\bin\Debug\netcoreapp2.0\GCMServer.pdb
+C:\Users\arodriguez\Documents\GitHub\-gcM-GESTION-CATASTRAL-MULTIPAIS\gcmserver\GCMServer\bin\Debug\netcoreapp2.0\GCMClases.dll
+C:\Users\arodriguez\Documents\GitHub\-gcM-GESTION-CATASTRAL-MULTIPAIS\gcmserver\GCMServer\bin\Debug\netcoreapp2.0\GCMClases.pdb
+C:\Users\arodriguez\Documents\GitHub\-gcM-GESTION-CATASTRAL-MULTIPAIS\gcmserver\GCMServer\obj\Debug\netcoreapp2.0\GCMServer.csproj.CopyComplete
+C:\Users\arodriguez\Documents\GitHub\-gcM-GESTION-CATASTRAL-MULTIPAIS\gcmserver\GCMServer\obj\Debug\netcoreapp2.0\GCMServer.dll
+C:\Users\arodriguez\Documents\GitHub\-gcM-GESTION-CATASTRAL-MULTIPAIS\gcmserver\GCMServer\obj\Debug\netcoreapp2.0\GCMServer.pdb
