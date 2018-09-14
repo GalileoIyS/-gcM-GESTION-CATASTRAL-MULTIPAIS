@@ -1,2 +1,9 @@
 language: csharp
 solution: gcmserver/GCMServer.sln
+
+mono: none
+dotnet: 2.1.4
+script:
+  - cd gcmserver
+  - dotnet restore
+  - dotnet build -c Release
