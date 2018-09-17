@@ -1,9 +1,19 @@
-language: csharp
-solution: gcmserver/GCMServer.sln
-
-mono: none
-dotnet: 2.1.4
-script:
-  - cd gcmserver
-  - dotnet restore
-  - dotnet build -c Release
+matrix:
+  include:
+    - language: csharp
+      solution: gcmserver/GCMServer.sln
+      mono: none
+      dotnet: 2.1.4
+      before_script:
+        - cd gcmserver
+      script:
+        - dotnet restore
+        - dotnet build -c Release
+      name: "Servidor"
+    - language: node_js
+      node_js: 8
+      before_script:
+        - cd gcmclient
+      script:
+        - npm install
+      name: "Cliente"
