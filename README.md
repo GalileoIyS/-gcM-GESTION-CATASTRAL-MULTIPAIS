@@ -121,8 +121,6 @@ Empleamos el entorno de desarrollo Microsoft Visual Studio Code para el desarrol
 
 La visión de la plataforma es ser una herramienta de gestión integral de la información catastral, permitiendo la emisión de cédulas catastrales, enlazando con otros repositorios de datos como pueden ser la planeación, infraestructuras, etc., soportando los procesos de valoración, actualización continua del parcelario catastral, de la información física y jurídica de los inmuebles y propietarios y de la información necesaria para la gestión de cobros y contribuyentes del impuesto predial.
 
-Ver calendario y ciclos de despliegue del Sistema en el ([calendario](Calendario.pdf))
-
 ### Licencia 
 ---
 [Licencia BSD](LICENSE.md).
