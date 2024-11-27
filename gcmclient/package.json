@@ -19,7 +19,7 @@
     "react-leaflet-polytools": "0.0.8",
     "react-native": "^0.56.0",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.4",
+    "react-scripts": "5.0.1",
     "react-streetview": "^1.1.1",
     "typeface-roboto": "0.0.54"
   },
